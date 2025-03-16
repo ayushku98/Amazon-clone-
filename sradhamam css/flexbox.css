@@ -1,0 +1,10 @@
+#box5{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+@media(max-width: 300px) {
+  div { background-color: green;
+    
+  }
+}

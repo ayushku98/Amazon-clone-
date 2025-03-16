@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 252, 252);
+
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100vw;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+  
+
+}
+.input{
+   color: black;
+    border-radius: 5px;
+
+    
+}
+button{
+    color: black;
+    
+}
+button{
+    display: inline-block;
+    
+}
+.logo{
+    font-size: 25px;
+    color: #f08804;
+    
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+
+}
+.contentbox{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#content{
+    height: 750px;
+}
+
+body{
+    background-image: url(Bue\ and\ Green\ Painterly\ Illustrative\ Boy\ Desktop\ Wallpaper.png);
+    background-size: cover;
+}

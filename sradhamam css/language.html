@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Dropdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-button {
+            background-color: #f3f3f3;
+            border: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            min-width: 200px;
+            z-index: 1;
+        }
+        .dropdown-content label {
+            display: block;
+            padding: 5px;
+            cursor: pointer;
+        }
+        .dropdown-content label:hover {
+            background-color: #f0f0f0;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <div class="dropdown-button">English ▼</div>
+        <div class="dropdown-content">
+            <label><input type="radio" name="language" checked> English - EN</label>
+            <label><input type="radio" name="language"> Español - ES</label>
+            <label><input type="radio" name="language"> العربية - AR</label>
+            <label><input type="radio" name="language"> Deutsch - DE</label>
+            <label><input type="radio" name="language"> עברית - HE</label>
+            <label><input type="radio" name="language"> 한국어 - KO</label>
+            <label><input type="radio" name="language"> Português - PT</label>
+            <label><input type="radio" name="language"> 中文(简体) - ZH</label>
+            <label><input type="radio" name="language"> 中文(繁體) - ZH</label>
+        </div>
+    </div>
+</body>
+</html>
